@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paw.Common", "Paw.Common\Paw.Common.csproj", "{61B6548E-6E50-41B3-833F-C2C80531DEF0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
