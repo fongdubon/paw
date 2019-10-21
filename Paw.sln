@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paw.Common", "Paw.Common\Paw.Common.csproj", "{61B6548E-6E50-41B3-833F-C2C80531DEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paw.Common", "Paw.Common\Paw.Common.csproj", "{61B6548E-6E50-41B3-833F-C2C80531DEF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{33263922-3C9F-433E-A976-1880C4CE6832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paw.Web", "Paw.Web\Paw.Web.csproj", "{249E5D57-2AE3-463A-87B9-AE9EBA982380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B6548E-6E50-41B3-833F-C2C80531DEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249E5D57-2AE3-463A-87B9-AE9EBA982380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249E5D57-2AE3-463A-87B9-AE9EBA982380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249E5D57-2AE3-463A-87B9-AE9EBA982380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249E5D57-2AE3-463A-87B9-AE9EBA982380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249E5D57-2AE3-463A-87B9-AE9EBA982380} = {33263922-3C9F-433E-A976-1880C4CE6832}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A8D34F9-FA80-471E-A8BC-823AEA96F794}
