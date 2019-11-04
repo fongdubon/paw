@@ -17,7 +17,7 @@
         public decimal Price  { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
-        [Display(Name = "CANATIDAD:")]
+        [Display(Name = "Cantidad")]
         public int Quantity { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
