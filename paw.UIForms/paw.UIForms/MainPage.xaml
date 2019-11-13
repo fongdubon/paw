@@ -8,9 +8,43 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Bienvenido a Machin by Jorge" 
+           HorizontalOptions="Start"
+           VerticalOptions="Center" />
+        <Label Text="Bienvenido a Machin by Ale" 
+           HorizontalOptions="End"
+               BackgroundColor="Aqua"
+               FontSize="Small"
+           VerticalOptions="Center" />
+        <Label Text="Bienvenido a Machin by Nat Thalia" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+               BackgroundColor="Black"
+               TextColor="Beige"
+               FontSize="Small"
+           VerticalOptions="Center" />
+        <Label Text="Bienvenido a Machin by Braulio" 
+           HorizontalOptions="Fill"
+               BackgroundColor="Pink"
+               FontSize="Small"               
+           VerticalOptions="Center" />
+        <Label Text="Pon algo:" 
+           HorizontalOptions="Fill"
+               BackgroundColor="Pink"
+               FontSize="Small"               
+           VerticalOptions="Center" />
+        <Entry
+            Placeholder="Introduce algo"></Entry>
+        <Label Text="Password:" 
+           HorizontalOptions="Fill"
+               BackgroundColor="Pink"
+               FontSize="Small"               
+           VerticalOptions="Center" />
+        <Entry
+            IsPassword="True"
+            Placeholder="Introduce algo"></Entry>
+        <Button
+            Text="Apachurrame"
+            BackgroundColor="Red"></Button>
     </StackLayout>
 
 </ContentPage>
