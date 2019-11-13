@@ -17,9 +17,9 @@ namespace paw.UIForms
         {
             InitializeComponent();
         }
-        void OnButtonClicked(object sender, EventArgs args)
-        {
-            Application.Current.MainPage = new NavigationPage(new Page1());
-        }
+        //void OnButtonClicked(object sender, EventArgs args)
+        //{
+        //    Application.Current.MainPage = new NavigationPage(new Page1());
+        //}
     }
 }
